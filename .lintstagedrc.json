@@ -1,0 +1,7 @@
+{
+  "*.{js,ts,jsx,tsx}": [
+    "eslint 'src/**/* --fix",
+    "yarn run test:staged",
+    "git add"
+  ]
+}
