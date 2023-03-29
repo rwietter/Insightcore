@@ -1,0 +1,20 @@
+{
+  "name": "insightcore",
+  "version": "0.0.1",
+  "main": "server.ts",
+  "repository": "git@github.com:rwietter/Insightcore.git",
+  "author": "Maurício Witter <mauriciobw17@gmail.com>",
+  "license": "Apache License",
+  "private": true,
+  "scripts": {},
+  "workspaces": [
+    "docs",
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "turbo": "^1.8.7"
+  },
+  "packageManager": "yarn@1.22.19"
+}
