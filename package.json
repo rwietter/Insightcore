@@ -1,7 +1,7 @@
 {
   "name": "insightcore-docs",
   "version": "0.0.1",
-  "repository": "git@github.com:rwietter/Insightcore.git",
+  "repository": "git@github.com:rwietter/insightcore-docs.git",
   "author": "Maurício Witter <mauriciobw17@gmail.com>",
   "license": "Apache License",
   "private": true,
