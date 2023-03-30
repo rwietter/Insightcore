@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Insightcore</h1>
+    <h1>Insightcore Docs</h1>
 </div>
 
 

@@ -1,23 +1,27 @@
 {
-  "name": "insightcore",
+  "name": "insightcore-docs",
   "version": "0.0.1",
-  "main": "server.ts",
   "repository": "git@github.com:rwietter/Insightcore.git",
   "author": "Maurício Witter <mauriciobw17@gmail.com>",
   "license": "Apache License",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
-  "workspaces": [
-    "docs",
-    "apps/*",
-    "packages/*"
-  ],
-  "dependencies": {},
+  "dependencies": {
+    "next": "^13.2.4",
+    "nextra": "^2.3.0",
+    "nextra-theme-docs": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
@@ -25,7 +29,8 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
-    "turbo": "^1.8.7"
+    "@types/node": "18.15.11",
+    "typescript": "^5.0.2"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "pnpm@7.26.3"
 }
