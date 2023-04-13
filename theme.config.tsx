@@ -14,13 +14,13 @@ const config: DocsThemeConfig = {
         <circle cx="8.5" cy="15.5" r="4.5" />
       </svg>
       <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
-        Insightcore
+        Covid-19 Insights
       </span>
     </>
   ),
   logoLink: '/',
   project: {
-    link: 'https://github.com/rwietter/Insightcore',
+    link: 'https://github.com/rwietter/covid-19-insights',
     icon: (
       <svg width="24" height="24" viewBox="0 0 256 256">
         <path fill="currentColor" d="m231.9 169.8l-94.8 65.6a15.7 15.7 0 0 1-18.2 0l-94.8-65.6a16.1 16.1 0 0 1-6.4-17.3L45 50a12 12 0 0 1 22.9-1.1L88.5 104h79l20.6-55.1A12 12 0 0 1 211 50l27.3 102.5a16.1 16.1 0 0 1-6.4 17.3Z">
@@ -31,17 +31,17 @@ const config: DocsThemeConfig = {
   banner: {
     key: '1.0-release',
     text: <a href="/" target="_blank">
-      🎉 Welcome to Insightcore
+      🎉 Welcome to Covid-19 Insights
     </a>,
   },
   footer: {
     text: <span>
-      Apache License {new Date().getFullYear()} © <a href="https://github.com/rwietter/Insightcore" target="_blank">Insightcore</a>.
+      Apache License {new Date().getFullYear()} © <a href="https://github.com/rwietter/covid-19-insights" target="_blank">Covid-19 Insights</a>.
     </span>,
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – insightcore'
+      titleTemplate: '%s – Covid-19 Insights'
     }
   },
 }
