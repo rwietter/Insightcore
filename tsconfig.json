@@ -106,7 +106,7 @@
     "jsx": "preserve"
   },
   "include": [
-    "../theme.config.tsx"
+    "./theme.config.tsx"
   ],
   "exclude": [
     "node_modules",
