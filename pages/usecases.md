@@ -20,8 +20,8 @@ Atores:
 
 ---
 
-## Representação Sequencial (Diagrama de Sequência)
+## Diagrama de Sequência (Sequence Diagram)
 
-![Sequence Diagram](https://i.imgur.com/8Z7Z7Zg.png)
+![Sequence Diagram](https://i.imgur.com/85H0ZKc.png)
 
 ---
