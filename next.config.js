@@ -1,6 +1,10 @@
+const path = require('path')
+
+const pathName = path.resolve(__dirname, 'theme.config.tsx')
+
 const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.tsx',
+  themeConfig: pathName,
 })
 
 module.exports = withNextra()
